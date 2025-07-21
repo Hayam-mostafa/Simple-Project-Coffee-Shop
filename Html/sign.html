@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="icon" href="../img/coffee.png" type="image/png">
+
+  <link rel="stylesheet" href="../css/register.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="main-box">
+      <h1>Register</h1>
+      <form id="form" action="#" method="post">
+        <div class="input-box">
+          <input type="text" id="user" required>
+          <label for="user">Username</label>
+          <span id="name_error"></span>
+
+        </div>
+        <div class="input-box">
+          <input type="text" id="email" required>
+          <label for="email">Email</label>
+          <span id="email_error"></span>
+
+        </div>
+        <div class="input-box">
+          <input type="password" id="password" required>
+          <label for="password">Password</label>
+          <span id="pass1_error"></span>
+        </div>
+        <div class="input-box">
+          <input type="password" id="psw" required>
+          <label for="psw">Confirm Password</label>
+          <span id="pass2_error"></span>
+        </div>
+
+        <button type="submit" class="submit">Register</button>
+
+        <div class="login">
+          <p>Already have an account? <a href="login.html" class="login-link">Login</a></p>
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <Script src="../script.js"></Script>
+</body>
+
+</html>

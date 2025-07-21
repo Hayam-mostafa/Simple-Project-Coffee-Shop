@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Cabin:ital@1&family=Dancing+Script:wght@700&family=Heebo:wght@200;300;500&family=Merriweather:ital,wght@0,700;1,300&family=Mulish&family=Roboto&family=Rubik&family=Stoke&family=Ubuntu&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Cabin', sans-serif;
+}
+
+.top_container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(7 0 0/75%),
+      rgb(14 7 7 / 53%)), url("../img/img.jpg_large");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.A-class {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    padding: 0px 1px ;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    margin-right: 25%;
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+}
+
+.A-class li {
+    display: inline;
+    padding: 10px 15px;
+}
+
+.A-class li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 23px;
+    padding: 4px 4px;
+}
+
+.A-class li a:hover {
+    color: chocolate;
+}
+
+.main_p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px;
+    color: beige;
+    padding-top: 10%;
+}
+
+.top_heading {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.bottom_heading {
+    padding-top: 1%;
+    font-size: 20px;
+}
+
+.button {
+    background-color: rgb(187, 119, 71);
+    padding: 10px 30px;
+    border-radius: 26px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 2%;
+}
+
+.btn:hover {
+    letter-spacing: 1px;
+}
+
+/*----about us----*/
+h1.head {
+    font-size: 50px;
+    color: rgb(179, 132, 63);
+    text-align: center;
+    margin: 40px auto;
+}
+
+h1.head span {
+    color: rgb(210, 169, 108);
+
+}
+
+.main-inner-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-inner-content {
+    flex: 720px;
+    padding: 32px;
+}
+
+.about-inner-content img {
+    width: 100%;
+}
+
+.about-inner-content p {
+    font-size: 40px;
+    color: burlywood;
+
+}
+
+.about-inner-content p span {
+    color: rgb(187, 119, 71);
+}
+
+/* _________footer____________ */
+.footer_container {
+    background: url("../img/footer.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+
+.rowline {
+    flex-basis: 15%;
+}
+
+.rowline ul {
+    padding: 25px 0px 25px 0px;
+}
+
+.rowline ul li {
+    list-style: none;
+    color: rgb(187, 180, 180);
+    padding: 7px 15px;
+    font-size: 21px;
+}
+
+.heading {
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.heading:hover {
+    color: chocolate;
+}
+
+.footer {
+    color: azure;
+    text-align: center;
+    background-color: black;
+    padding: 10px 20px;
+}
